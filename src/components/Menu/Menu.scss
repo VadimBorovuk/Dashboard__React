@@ -1,0 +1,60 @@
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 18px;
+  align-items: center;
+  background-color: #f8f6f6;
+  color: #999999;
+  border-bottom: 1px solid #747474;
+}
+.menu .sourch,
+.bell,
+.message{
+  position: relative;
+  font-size: 18px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.bell:after{
+  content: "24";
+  position: absolute;
+  font-size: 12px;
+  top: -6px;
+  right: -13px;
+  font-weight: bold;
+  color: #8a0000;
+}
+
+.message:after{
+  content: "6";
+  position: absolute;
+  font-size: 12px;
+  top: -6px;
+  right: -9px;
+  font-weight: bold;
+  color: #8a0000;
+}
+
+.avatar img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid gold;
+  cursor: pointer;
+  transition: .4s ease;
+  &:hover {
+    transform: scale(1.2)
+  }
+}
+.dropdown span{
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: #999999;
+  transition: .4s ease;
+  cursor: pointer;
+}
+.dropdown span:hover{
+  transform: rotate(120deg);
+}

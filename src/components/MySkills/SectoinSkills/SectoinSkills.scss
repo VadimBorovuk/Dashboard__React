@@ -1,0 +1,50 @@
+.myskills__info{
+  width: 70%;
+  margin-right: 20px;
+}
+.info__upper{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+.upper__events, .upper__users, .upper__chats{
+  width: 32%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #fcfbfb;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+.upper__chats{
+  margin-right: 0;
+}
+.image{
+  color: #333333;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.info__upper .text{
+  text-align: left;
+  color: #999999;
+}
+.text .about{
+  font-size: 13px;
+}
+.text .number{
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.info__skills{
+  background-color: #fcfbfb;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+.skills__head{
+  display: flex;
+  justify-content: space-between;
+}

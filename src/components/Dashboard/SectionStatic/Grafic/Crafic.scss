@@ -1,0 +1,80 @@
+
+.grafic {
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.grafic__head {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #404447;
+}
+
+.grafic__date {
+  display: flex;
+  margin-left: 310px;
+}
+
+.grafic__date .year {
+  margin-right: 30px;
+}
+.grafic__date span{
+  margin-left: 5px;
+}
+
+.grafic__block {
+  display: flex;
+}
+
+.grafic__number {
+  text-align: right;
+}
+
+.grafic__number div {
+  padding: 11px 0;
+  font-weight: 600;
+  color: #404447;
+}
+
+.grafic__image {
+  position: relative;
+  margin-left: 30px;
+  border-left: 1px solid gold;
+  width: 100%;
+}
+
+.grafic__image:after {
+  position: absolute;
+  display: block;
+  content: '200';
+  width: 65px;
+  height: 40px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  color: #999999;
+  top: 100px;
+  left: 152px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.grafic__image img {
+  max-width: 100% ;
+  position: absolute;
+  bottom: 0;
+  border-bottom: 1px solid gold;
+}
+
+.grafic__month{
+  display: flex;
+  justify-content: flex-end;
+  color: #b6b9bc;
+  font-size: 14px;
+}
+.grafic__month div{
+  padding: 7px;
+}

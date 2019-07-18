@@ -1,0 +1,58 @@
+.credit__Card {
+  background-color: #fcfbfb;
+  width: 29%;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  transition: .4s ease;
+  &:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transform: scale(1.05)
+  }
+}
+
+
+.head {
+  padding: 25px 25px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.line {
+  height: 2px;
+  width: 80%;
+  background-color: gold;
+  margin: 0 auto;
+}
+.static{
+  display: flex;
+}
+
+.cardic img {
+  max-width: 100%;
+}
+.static__text{
+  font-size: 13px;
+  padding: 10px;
+}
+.static__text p{
+  font-weight: bold;
+  color: #000000;
+  margin-left: 10px;
+}
+.static__text span{
+  font-weight: bold;
+  color: #999999;
+}
+
+.static__graf{
+  width: 69%;
+  margin-left: 20px;
+  background-color: #fcfbfb;
+  border-radius: 5px;
+  transition: .4s ease;
+  &:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transform: scale(1.05)
+  }
+}

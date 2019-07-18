@@ -1,0 +1,85 @@
+.sale{
+  width: 32%;
+  margin-right: 20px;
+  font-family: 'Poppins', sans-serif;
+
+}
+.sale__One{
+  position: relative;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fcfbfb;
+  margin-bottom: 27px;
+  transition: .4s ease;
+  &:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transform: scale(1.05)
+  }
+}
+.sale__Oneline{
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background-color: #ffb461;
+}
+.sale__Oneline:after{
+  content: "80%";
+  right: 0;
+  position: absolute;
+  top: -20px;
+  color: #ffb461;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sale__Two{
+  position: relative;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fcfbfb;
+  transition: .4s ease;
+  &:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transform: scale(1.05)
+  }
+}
+.sale__Twoline{
+  width: 75%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background-color: #18bb4b;
+}
+.sale__Twoline:after{
+  content: '75%';
+  right: 0;
+  position: absolute;
+  top: -20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #18bb4b;
+}
+
+.sale__info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sale__header{
+  font-weight: bold;
+  font-size: 16px;
+}
+.sale__number{
+  font-size: 26px;
+  font-weight: 400;
+}
+.sale__text{
+  margin: 20px 0;
+}
+.sale__today{
+  font-size: 13px;
+  color: #999999;
+}
